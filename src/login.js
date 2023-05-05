@@ -9,6 +9,7 @@ import { Password } from 'primereact/password';
 import { useState } from 'react';
 import "primereact/resources/themes/lara-light-indigo/theme.css"; 
 import "primereact/resources/primereact.min.css";  
+import { footer } from './footer';
         
 
 

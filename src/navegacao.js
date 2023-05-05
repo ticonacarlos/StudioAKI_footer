@@ -3,7 +3,7 @@ import Logosa from './componentes/imgs/Logo.png'
 // import Banner from './componentes/imgs/studio.jpg'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-
+import { Footer } from './footer';
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -17,6 +17,8 @@ import Breadcrumb from 'react-bootstrap/Breadcrumb';
  
 export function Navegacao() {
     return (
+      <>
+      
       
       <Navbar  variant="white" expand="lg" className="navbar" style={{backgroundColor: "#546CCF", padding: "8px 10px"}}>
       <Container>
@@ -53,6 +55,10 @@ export function Navegacao() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    <Footer />
+    </>
+     
+
 
 
         
@@ -66,6 +72,7 @@ export function Navegacao() {
       
       
     )
+    
   }
 
 
